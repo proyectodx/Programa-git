@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+<link rel="stylesheet" href="https://kit.fontawesome.com/a2dd6045c4.js">
+<link rel="stylesheet" href="./estilosAdmin/estiloIngreso/cartillaPrincipal.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloCartilla/cartillaLadoNavegacion.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloEmpleados/empleadosPrincipal.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloIngresos/ingresoPrincipal.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloIngresos/ingresoPanel.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloPlazas/plazasPrincipal.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloPlazas/plazasAside.css">
+<link rel="stylesheet" href="./estilosAdmin/estiloPlazas/plazasMaquetacion.css">

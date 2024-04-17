@@ -1,0 +1,13 @@
+.panel {
+  display: grid;
+}
+.titulo-panel {
+  display: flex;
+
+  height: 77px;
+  text-align: center;
+}
+.panel-principal {
+  display: grid;
+  grid-template-columns: minmax(200px, 2fr) 5fr;
+}
