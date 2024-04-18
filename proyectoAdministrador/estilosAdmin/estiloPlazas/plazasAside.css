@@ -3,6 +3,7 @@
   --color-titulo-aside: #d8d8d8;
 }
 .lado-pazas {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

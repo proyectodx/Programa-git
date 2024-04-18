@@ -6,7 +6,7 @@
   grid-template-areas:
     "section section section"
     "main main aside"
-    "footer footer aside";
+    "main main aside";
 }
 .disposicion section {
   grid-area: section;
@@ -14,9 +14,7 @@
 .disposicion #options {
   grid-area: main;
 }
-.disposicion aside {
+.disposicion .aside {
   grid-area: aside;
-}
-.disposicion footer {
-  grid-area: footer;
+  min-height: 100vh;
 }
