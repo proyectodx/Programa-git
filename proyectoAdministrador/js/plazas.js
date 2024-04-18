@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/*document.addEventListener("DOMContentLoaded", function () {
   const addButton = document.getElementById("add-option");
   const optionsContainer = document.getElementById("options");
   const saveButton = document.querySelector(".question__save-button");
@@ -42,4 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
       optionIndex++;
     });
   }
-});
+});*/
