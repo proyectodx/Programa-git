@@ -8,17 +8,24 @@
         </h1>
         </section>
         <div id="options" class="plazas__agregadas" >
-            <?php 
-            if (isset($resultados)) {
-                foreach ($resultados as $resultado) {?>
-                <div class="plaza">
-                    <input type="text" class="plaza__input" name="option[]" placeholder="<?php echo $resultado['nomPlaza']; ?>">
-                    <a href="?id=<?php echo $resultado['idPlaza']; ?>">
-                        <button type="button" class="plaza__remove">Eliminar</button>
+        <?php 
+        if (isset($resultados)) {
+            foreach ($resultados as $resultado) {?>
+            <div class="plaza">
+                <div>
+                    <form action="" method="post" class="editar-plaza">
+                    <input type="hidden" class="plaza__input" name="idPlaza" value="<?php echo $resultado['idPlaza'];?>">
+                    <input type="text" name="nombre_plaza" value="<?php echo $resultado['nomPlaza'];?>">
+                    <input type="submit" class="plaza__editar" name="editar_plaza" value="Guardar cambios">
+                    <a href="?id=<?php echo $resultado['idPlaza'];?>">
+                    <button type="button"  class="plaza__remove">Eliminar</button>
                     </a>
+                </form>
                 </div>
-                <?php }
-            }?> 
+                
+            </div>
+            <?php }
+        }?>
         </div>
 <form accept="" method="post" class="aside">
     <aside class="lado-pazas">

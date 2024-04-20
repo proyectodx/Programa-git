@@ -29,4 +29,11 @@ if (isset($_GET['id'])){
     $sentencia=$conx->prepare($sql);
     $sentencia->execute([$id]);
 }
+if (isset($_POST['editar_plaza'])) {
+    $idPlaza = $_POST['idPlaza'];
+    $nomPlaza = $_POST['nombre_plaza'];
+    $sql = 'UPDATE Plazas SET nomPlaza =? WHERE idPlaza =?';
+    $sentencia = $conx->prepare($sql);
+    $sentencia->execute([$nomPlaza, $idPlaza]);
+}
 ?>

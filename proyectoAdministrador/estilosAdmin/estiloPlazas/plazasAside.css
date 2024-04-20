@@ -1,6 +1,8 @@
 :root {
   --color-aside-background: #3d4085;
   --color-titulo-aside: #d8d8d8;
+  --color-boton-eliminar: crimson;
+  --color-boton-editar: rgb(70, 220, 20);
 }
 .lado-pazas {
   height: 100%;
@@ -29,7 +31,15 @@
   margin-bottom: 10px;
 }
 .plaza__remove {
-  background-color: crimson;
+  background-color: var(--color-boton-eliminar);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.plaza__editar {
+  background-color: var(--color-boton-editar);
   color: #fff;
   border: none;
   padding: 5px 10px;
