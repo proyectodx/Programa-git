@@ -15,7 +15,7 @@
                 <div>
                     <form action="" method="post" class="editar-plaza">
                     <input type="hidden" class="plaza__input" name="idPlaza" value="<?php echo $resultado['idPlaza'];?>">
-                    <input type="text" name="nombre_plaza" value="<?php echo $resultado['nomPlaza'];?>">
+                    <input type="text" class="plaza__input"  name="nombre_plaza" value="<?php echo $resultado['nomPlaza'];?>">
                     <input type="submit" class="plaza__editar" name="editar_plaza" value="Guardar cambios">
                     <a href="?id=<?php echo $resultado['idPlaza'];?>">
                     <button type="button"  class="plaza__remove">Eliminar</button>
