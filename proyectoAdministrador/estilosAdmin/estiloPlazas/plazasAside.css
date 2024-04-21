@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   --color-aside-background: #3d4085;
   --color-titulo-aside: #d8d8d8;
