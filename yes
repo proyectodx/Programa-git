@@ -1,0 +1,23 @@
+[33mcommit 019a7446bc7d0f1e07f215c7a78c8e740617b808[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Arley cardozo <cardozomontenegroarley@gmail.com>
+Date:   Fri Apr 19 20:00:05 2024 -0500
+
+    se crea el boton editar con sus funcionalidades y estilos
+
+[33mcommit 16a8df6c7858eea050e046471462fe54994549f2[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Arley cardozo <cardozomontenegroarley@gmail.com>
+Date:   Thu Apr 18 06:29:05 2024 -0500
+
+    se comenta todo el codigo para quitar la funcionalidad
+
+[33mcommit e2b5382e5cf5d60bf12e84db5cb263d32f5a16fd[m
+Author: Arley cardozo <cardozomontenegroarley@gmail.com>
+Date:   Thu Apr 18 06:14:58 2024 -0500
+
+    añade funcionalidades para el funcionamineto de insercion y listar contenido
+
+[33mcommit 90e113ae3da11fd0aeb856a8cb4bf8b7aa6b59a2[m
+Author: Arley cardozo <cardozomontenegroarley@gmail.com>
+Date:   Wed Apr 17 17:39:17 2024 -0500
+
+    se añade el proyectoAdministrador
