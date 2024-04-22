@@ -8,10 +8,18 @@
         content="index, follow">
         <meta name="theme-color" 
         content="#09f"><!---color de la pagina web externa -->
-        <link rel="icon" href="./imagenes/logo.jpg">
-        <link rel="stylesheet" href="./estilosAdmin/navegacionEstilo/navegacionPrincipal.css">
-        <link rel="stylesheet" href="./estilosAdmin/estiloIngresos/ingresoPrincipal.css">
-        <link rel="stylesheet" href="./estilosAdmin/estiloIngresos/ingresoPanel.css">
+        <link rel="icon" href="./Views/img/logo.jpg">
+        <link rel="stylesheet" href="./Views/css/navegacionPrincipal.css">
+        <?php 
+        include_once './Views/links.php';
+        ?>
         <title>Gastro web</title>
     </head>
-<body>
+    <body>
+        <?php 
+        include_once 'modules/navegacionPrincipal.php';
+        ?>
+
+    </body>
+</html>
+

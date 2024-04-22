@@ -1,5 +1,4 @@
 
-<body>
     <header class="encabezado-navegacion">
         <nav class="navegacion">
 
@@ -13,7 +12,7 @@
                         <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
                         <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
                     </svg>
-                    <a href="./usuarioAdmin.php">Usuario</a>
+                    <a href="administrador/usuarioAdminPrincipal.php">Usuario</a>
                 </li>
 
                 <li class="nav-lista ">
@@ -25,7 +24,7 @@
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
                     </svg>
-                    <a href="./cartillas.php">Cartilla</a>
+                    <a href="administrador/cartillaLadoNavegacion.php">Cartilla</a>
                 </li>
 
                 <li class="nav-lista ">
@@ -41,13 +40,13 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
                     </svg>
-                    <a href="./empleados.php">Empleados</a>
+                    <a href="administrador/empleadosPrincipal.php">Empleados</a>
                 </li>
 
                 <li class="nav-lista ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible" width="24" height="24" viewBox="2 -8 35 35" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M10 16.5l2 -3l2 3m-2 -3v-2l3 -1m-6 0l3 1" /><circle cx="12" cy="7.5" r=".5" fill="currentColor" />
                 </svg>
-                <a href="./plazas.php">Plazas</a>
+                <a href="administrador/plazasPincipal.php">Plazas</a>
                 </li>
 
                 <li class="nav-lista ">
@@ -62,7 +61,7 @@
                         <path d="M15 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
                         <path d="M4 20l14 0" />
                     </svg>
-                    <a href="./ingresos.php">Ingresos</a>
+                    <a href="administrador/ingresoPrincipal.php">Ingresos</a>
                 </li>
 
                 <li class="nav-lista">
@@ -112,5 +111,3 @@
             </div>
         </nav>
     </header>
-    <!----->
-</body>
