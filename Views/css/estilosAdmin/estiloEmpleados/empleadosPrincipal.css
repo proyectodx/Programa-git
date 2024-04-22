@@ -1,0 +1,44 @@
+h1 {
+  display: inline-block;
+  width: 150px;
+  height: 28px;
+  font-size: 18px;
+  margin: 14px 22px 12px 12px;
+  color: azure;
+}
+.lista-usuario {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 118px;
+  background-color: #000a7b;
+}
+.btn-crear-usuario {
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background: transparent;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: inset 2px 2px 2px 0px rgb(255, 255, 255, 5),
+    7px 7px 20px 0px rgb(0, 0, 0, 0.1), 4px 4px 5px 0px rgb(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-crear-usuario {
+  background-color: #a2ef4d;
+  border: none;
+  z-index: 1;
+}
+.btn-crear-usuario:after {
+  z-index: -1;
+  background-color: #663dff;
+  box-shadow: inset 2px 2px 2px 0px rgb(255, 255, 255, 5),
+    7px 7px 20px 0px rgb(0, 0, 0, 0.1), 4px 4px 5px 0px rgb(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
