@@ -1,4 +1,6 @@
-
+<?php
+    include("./models/plazasDAO.php");
+?>
 <div class="disposicion">
     <section class="titulo-plaza">
         <h1>
