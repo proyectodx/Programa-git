@@ -2,11 +2,11 @@
     include("./models/plazasDAO.php");
 ?>
 <div class="disposicion">
-    <section class="titulo-plaza">
-        <h1>
+    <section class="contenedor-titulo-plaza">
+        <h1 class="titulo-plaza">
             Gestionar plazas
         </h1>
-        </section>
+    </section>
         <div id="options" class="plazas__agregadas" >
         <?php 
         if (isset($resultados)) {
@@ -34,22 +34,14 @@
                 Agregar plasas
             </h2> 
 
-            <label for="from-plaza"> nombre plaza
+            <label> nombre plaza
                 <input type="text"
                 class="from-control"
                 name="nombre_plaza"
                 id="nombre_plaza"
-                placeholder="Nombre de la plaza">
+                placeholder="Nombre de la plaza" />
             </label>
             <article  class="agregar-seccion">
-            
-            <!--
-            <button 
-            type="button" 
-            id="add-option" 
-            class="plazas__add-option">
-                Agregar plaza
-            </button>-->
 
             <input 
             type="submit" 

@@ -1,4 +1,4 @@
-h1 {
+.titulo-plaza {
   display: inline-block;
   width: 250px;
   height: 28px;
@@ -6,7 +6,7 @@ h1 {
   margin: 14px 22px 12px 12px;
   color: azure;
 }
-.titulo-plaza {
+.contenedor-titulo-plaza {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;

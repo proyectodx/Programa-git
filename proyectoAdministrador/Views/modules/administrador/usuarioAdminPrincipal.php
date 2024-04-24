@@ -1,7 +1,7 @@
 <main>
     <article class="informacion">
-        <header class="informacion-titulo">
-            <h1 class="informacio-personal">
+        <header class="contenedor-titulo">
+            <h1 class="titulo-informacion">
             Informacion personal
             </h1>
         </header>

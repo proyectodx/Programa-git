@@ -1,7 +1,7 @@
 <main>
     <article>
-    <div class="lista-usuario">
-        <h1>
+    <div class="contenedor-lista-usuario">
+        <h1 class="lista-usuario">
             Lista de usuario
         </h1>
         <button class="btn-crear-usuario ">

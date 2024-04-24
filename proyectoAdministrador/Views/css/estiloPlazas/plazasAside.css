@@ -4,6 +4,9 @@
   --color-boton-eliminar: crimson;
   --color-boton-editar: rgb(70, 220, 20);
 }
+.aside {
+  overflow: hidden;
+}
 .lado-pazas {
   height: 100%;
   display: flex;
@@ -13,6 +16,7 @@
 }
 .titulo-lado-clases {
   color: var(--color-titulo-aside);
+  margin: 20px 0 20px 0;
 }
 .agregar-seccion {
   display: flex;
