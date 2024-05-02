@@ -3,6 +3,7 @@
   --color-titulo-aside: #d8d8d8;
   --color-boton-eliminar: crimson;
   --color-boton-editar: rgb(70, 220, 20);
+  --color-texto-boton: #ebebeb;
 }
 .aside {
   overflow: hidden;
@@ -28,6 +29,13 @@
 .plaza {
   margin: 10px 0 0 10px;
 }
+.contenedor-plaza-input {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px 10px 0 0;
+}
 .plaza__input {
   display: inline-block;
   padding: 8px;
@@ -39,7 +47,6 @@
 }
 .plaza__remove {
   background-color: var(--color-boton-eliminar);
-  color: #fff;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -47,9 +54,11 @@
 }
 .plaza__editar {
   background-color: var(--color-boton-editar);
-  color: #fff;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+.text-boton {
+  color: var(--color-texto-boton);
 }
