@@ -1,2 +1,1 @@
-const URLUSUARIO =
-  "http://localhost/sena_espania/proyectoAdministrador/views/models";
+const SERVERURL = "http://localhost/sena_espania/proyectoAdministrador/";
