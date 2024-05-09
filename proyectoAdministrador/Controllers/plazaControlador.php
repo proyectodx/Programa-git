@@ -2,7 +2,7 @@
 ob_start();
 class plazaControlador {
 
-    public function registrarPlazasControlador() {
+    public function registrarPlazasControlador() { //Encargada de validar y registrar nuevas plazas en el sistema.
         
         //validar datos
 
@@ -54,27 +54,27 @@ class plazaControlador {
         }
     }
 
-    public function listarPlazaControlador() {
+    public function listarPlazaControlador() { //Recupera el listado completo de plazas almacenadas.
         $plazaDao = new PlazaDAO();
         $listado = $plazaDao->listarPlazaModelo();
         return $listado;
     }
     
-    public function listarPlazaByControlador($id){
+    public function listarPlazaByControlador($id){ //Obtiene información específica de una plaza según su ID.
         $plazaDao = new PlazaDAO();
         $resultado = $plazaDao->listarPlazaByControlador($id);
         return $resultado;
     }
 
     
-    public function eliminarPlazaControlador($id) {
+    public function eliminarPlazaControlador($id) { //Permite la eliminación de una plaza del sistema.
         $plazaDao = new PlazaDAO();
         $respuesta = $plazaDao->eliminarplazaModelo($id);
         return $respuesta;
     }
     
 
-    public function validarPlazaControlador($nombre){
+    public function validarPlazaControlador($nombre){ //Valida la existencia de una plaza según su nombre.
         $plazaDao = new PlazaDAO();
         $respuesta = $plazaDao->validarPlazaModelo($nombre);
         if ($respuesta > 0){
@@ -83,7 +83,7 @@ class plazaControlador {
             return "no";
         }
     }
-    public function validarPlazaUpdateControlador($nombre, $id) {
+    public function validarPlazaUpdateControlador($nombre, $id) { //Valida la existencia de una plaza al realizar una actualización.
         $respuesta = $this->listarPlazaByControlador($id);
         if ($respuesta[1] == $nombre) {
             return "no";
@@ -91,7 +91,7 @@ class plazaControlador {
             return $this->validarPlazaControlador($nombre);
         }
     }
-    public function buscarPlazaControlador(){
+    public function buscarPlazaControlador(){ //Realiza búsquedas de plazas según un criterio especificado
         if (isset($_POST['datoBuscar'])) {
             $plazaDao = new PlazaDAO();
             $plazas = $plazaDao->buscarPlazaModelo($_POST['datoBuscar']);
